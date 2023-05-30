@@ -38,7 +38,7 @@ def make_handler(user_handler):
 async def discover():
     devices = await bleak.BleakScanner.discover()
     for d in devices:
-        if d.name.lower().startswith("lego mario"):
+        if d.name and d.name.lower().startswith("lego mario"):
             return d
 
 async def read_data(address, done, handler):
