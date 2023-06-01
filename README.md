@@ -12,3 +12,7 @@ pip install -r requirements.txt
 
 Start Mario, press the bluetooth button and run `mario.py`.
 
+Demo:
+
+https://github.com/rgerganov/mario/assets/271616/27358c85-324b-4ab1-8aa6-e4cec8700e92
+
